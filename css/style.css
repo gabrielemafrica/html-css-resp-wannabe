@@ -135,30 +135,35 @@ img {
 
 }
 
+
+/* tablet */
+
 @media  all and (max-width:768px) {
     
 
 }
 
+
+/* smartphone */
+
 @media  all and (max-width:480px) {
-    .body{
-        font-size: 1.2em;
-    }
+
 
     .row {
         display: block;
         width: 80%;
         margin: 0 auto;
-    }  
-    .lessons .col {
+    } 
+
+
+    /* lesson e steps*/
+
+    .lessons .col, .steps .col {
         width: auto;
         margin-bottom: 80px;
     }
 
-    .steps .col{
-        width: auto;
-        margin-bottom: 80px;
-    }
+    /* why us */
 
     .why-us{
         background-color: black;
